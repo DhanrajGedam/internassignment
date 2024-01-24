@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=SF+Pro+Text:wght@600&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --body-body-sm-medium: Inter;
+  --body-body-sm-semibold: "SF Pro Text";
+
+  /* font sizes */
+  --body-body-sm-medium-size: 12px;
+  --body-body-md-default-size: 13px;
+  --heading-heading-md-size: 14px;
+  --heading-heading-xl-size: 24px;
+  --font-size-lgi: 19px;
+  --heading-heading-3xl-size: 36px;
+  --font-size-10xl: 29px;
+  --font-size-3xl: 22px;
+
+  /* Colors */
+  --global-orange-orange01: #fffdfa;
+  --color-input-bg-surface: #fdfdfd;
+  --color-input-border: #8a8a8a;
+  --color-bg-surface-surface: #fff;
+  --color-text-text-brand: #4a4a4a;
+  --color-bg-fill-fill-brand: #303030;
+  --color-text-text-secondary: #616161;
+  --color-text-text-emphasis: #005bd3;
+  --color-purple-14: #7126ff;
+  --global-orange-orange02: #fff7ee;
+  --global-orange-orange-08: #ffc879;
+  --global-orange-orange-04: #ffebd5;
+  --global-orange-orange-12: #956f00;
+  --color-bg-bg: #f1f1f1;
+  --color-gainsboro-100: #e6e6e6;
+  --color-border-border: #e3e3e3;
+  --color-gainsboro-200: #d9d9d9;
+  --color-bg-surface-surface-warning: #fff1e3;
+  --color-icon-icon-magic: #8051ff;
+  --color-bg-surface-surface-magic: #f8f7ff;
+  --color-icon-icon-success: #29845a;
+  --color-bg-surface-surface-info: #eaf4ff;
+  --color-bg-surface-surface-caution: #fff8db;
+  --global-orange-orange-14: #5e4200;
+
+  /* Spacing */
+  --p-space-4: 16px;
+  --space-button-group-gap: 8px;
+  --space-050: 2px;
+  --space-300: 12px;
+  --space-150: 6px;
+  --border-border-radius-button: 8px;
+  --space-100: 4px;
+  --space-200: 8px;
+  --card-radius-figma-only: 12px;
+  --space-card-padding: 16px;
+
+  /* Gaps */
+  --gap-base: 16px;
+  --gap-13xl: 32px;
+  --gap-5xs: 8px;
+  --gap-11xs: 2px;
+  --gap-9xs: 4px;
+  --gap-5xl: 24px;
+  --gap-xl: 20px;
+  --gap-14xl: 33px;
+
+  /* Paddings */
+  --padding-2xl: 21px;
+  --padding-xl: 20px;
+  --padding-12xs: 1px;
+  --padding-base: 16px;
+  --padding-15xl: 34px;
+  --padding-7xs: 6px;
+  --padding-xs: 12px;
+  --padding-5xl: 24px;
+  --padding-smi: 13px;
+  --padding-2xs: 11px;
+  --padding-21xl: 40px;
+  --padding-5xs: 8px;
+  --padding-4xs: 9px;
+
+  /* Border radiuses */
+  --br-base: 16px;
+  --br-5xs: 8px;
+  --br-xs: 12px;
+  --br-7xs: 6px;
+  --br-xl: 20px;
+  --br-9xs: 4px;
+
+  /* Effects */
+  --shadow-100: 1px 0px 0px rgba(0, 0, 0, 0.13) inset,
+    -1px 0px 0px rgba(0, 0, 0, 0.13) inset,
+    0px -1px 0px rgba(0, 0, 0, 0.17) inset,
+    0px 1px 0px rgba(204, 204, 204, 0.5) inset,
+    0px 1px 0px rgba(26, 26, 26, 0.07);
+  --shadow-button-primary: 0px 2px 0px rgba(255, 255, 255, 0.2) inset,
+    2px 0px 0px rgba(255, 255, 255, 0.2) inset,
+    -2px 0px 0px rgba(255, 255, 255, 0.2) inset, 0px -1px 0px 1px #000 inset,
+    0px 1px 0px #000 inset;
+  --shadow-button-default: 0px -1px 0px #b5b5b5 inset,
+    -1px 0px 0px #e3e3e3 inset, 1px 0px 0px #e3e3e3 inset,
+    0px 1px 0px #e3e3e3 inset;
+}
